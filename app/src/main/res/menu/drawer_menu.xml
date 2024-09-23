@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dash"
+        android:title="⌨️ Dashboard" />
+    <item
+        android:id="@+id/nav_tambah_karyawan"
+        android:title="🚻 Tambah Karyawan" />
+    <item
+        android:id="@+id/nav_informasi"
+        android:title="ℹ️ About" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="❗ Logout" />
+</menu>
+

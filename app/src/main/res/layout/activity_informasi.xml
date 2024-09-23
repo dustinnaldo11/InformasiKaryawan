@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Konten halaman informasi Anda di sini -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ℹ️ Tentang Aplikasi ℹ️"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="20dp"
+            android:padding="15dp"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="24px"
+            android:justificationMode="inter_word"
+            android:text="Kalian sedang membaca konteks dan tujuan dari aplikasi ini, aplikasi informasikaryawan ini adalah aplikasi sederhana yang telah dibuat oleh Dustin Naldo Lysandry dari sekolah tinggi STMIK WIDYA CIPTA DHARMA. Aplikasi ini bertujuan untuk menampung data gaji karyawan dan sekaligus membuat atau mendaftarkan akun karyawan tersebut. pada halaman utama terdapat hamburger button yang menampilkan beberapa tombol
+yang bisa di klik, terdapat tombol dashbaord yang bertujuan untuk memperlihatkan data-data dalam database, tombol tambah karyawan untuk menambahkan data karyawan baru,
+tombol informasi yang menyediakan halaman konteks dalam kegunaan aplikasi informasi karyawan tersebut dan tombol logout untuk mengeluarkan pengguna yang sudah selesai menggunakan aplikasi tersebut." />
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:background="@android:color/white"
+        app:menu="@menu/drawer_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>
+

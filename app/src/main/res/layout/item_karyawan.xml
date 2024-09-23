@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvNamaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Karyawan:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvNamaLabel"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvGajiLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNama"
+        android:text="Gaji:"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvGaji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvGajiLabel"
+        android:layout_marginStart="8dp"
+        android:layout_below="@id/tvNama"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@id/tvGajiLabel"
+        android:layout_alignParentEnd="true" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tvGaji"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="320px"
+            android:layout_height="wrap_content"
+            android:text="🔧 Edit" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="320px"
+            android:layout_height="wrap_content"
+            android:text="🗑️ Hapus"
+            android:layout_marginTop="0dp"
+           />
+
+    </LinearLayout>
+
+</RelativeLayout>
