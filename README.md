@@ -34,5 +34,5 @@ Framework: Android SDK
 Database: SQLite (atau database yang digunakan)
 
 ![Screenshot](GAMBAR%20APK/Screenshot%202024-09-22%20135646.png)
-![Screenshot](GAMBAR%20APK/Screenshot%2024-09-22%135852.png)
-![Screenshot](GAMBAR%20APK/Screenshot%2024-09-22%135918.png)
+![Screenshot](GAMBAR%20APK/Screenshot%202024-09-22%20135852.png)
+![Screenshot](GAMBAR%20APK/Screenshot%202024-09-22%20135918.png)
