@@ -1,5 +1,34 @@
 ![Screenshot](GAMBAR%20APK/Screenshot%202024-09-22%20135646.png)
 
-Kalian sedang membaca konteks dan tujuan dari aplikasi ini, aplikasi informasikaryawan ini adalah aplikasi sederhana yang telah dibuat oleh Dustin Naldo Lysandry dari sekolah tinggi STMIK WIDYA CIPTA DHARMA. Aplikasi ini bertujuan untuk menampung data gaji karyawan dan sekaligus membuat atau mendaftarkan akun karyawan tersebut. pada halaman utama terdapat hamburger button yang menampilkan beberapa tombol
-yang bisa di klik, terdapat tombol dashbaord yang bertujuan untuk memperlihatkan data-data dalam database, tombol tambah karyawan untuk menambahkan data karyawan baru,
-tombol informasi yang menyediakan halaman konteks dalam kegunaan aplikasi informasi karyawan tersebut dan tombol logout untuk mengeluarkan pengguna yang sudah selesai menggunakan aplikasi tersebut.
+Aplikasi Informasi Karyawan
+Dibuat oleh:
+Dustin Naldo Lysandry
+STMIK WIDYA CIPTA DHARMA
+
+Deskripsi
+Aplikasi Informasi Karyawan adalah aplikasi sederhana yang bertujuan untuk membantu perusahaan dalam mengelola data karyawan, termasuk informasi gaji dan pendaftaran akun karyawan baru. Aplikasi ini dirancang agar mudah digunakan dan memiliki antarmuka yang intuitif.
+
+Fitur Utama
+Dashboard
+Menampilkan semua data karyawan yang tersimpan dalam database secara terperinci.
+
+Tambah Karyawan
+Fitur untuk menambahkan data karyawan baru dengan mudah, memungkinkan pembuatan akun dan penyimpanan informasi gaji.
+
+Informasi Aplikasi
+Menyediakan penjelasan terkait fungsi dan kegunaan aplikasi Informasi Karyawan ini.
+
+Logout
+Tombol untuk keluar dari aplikasi setelah pengguna selesai menggunakannya.
+
+Navigasi
+Aplikasi dilengkapi dengan hamburger button di bagian atas halaman utama yang mempermudah navigasi ke fitur-fitur berikut:
+
+Dashboard
+Tambah Karyawan
+Informasi Aplikasi
+Logout
+Teknologi yang Digunakan
+Bahasa Pemrograman: Java (untuk aplikasi Android)
+Framework: Android SDK
+Database: SQLite (atau database yang digunakan)
